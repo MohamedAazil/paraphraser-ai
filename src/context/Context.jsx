@@ -8,7 +8,7 @@ export const ContextProvider = (props) => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [output, setOutput] = useState("");
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  const apiKey = import.meta.env.VITE_APP_GEMINI_API_KEY;
   console.log("env variables:", import.meta.env);
 
 
