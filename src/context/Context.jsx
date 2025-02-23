@@ -8,8 +8,9 @@ export const ContextProvider = (props) => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [output, setOutput] = useState("");
-  console.log(process.env);
   const apiKey = import.meta.env.apiKey;
+  console.log("API Key:", import.meta.env.VITE_GEMINI_API_KEY);
+
 
   const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
