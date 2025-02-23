@@ -9,7 +9,7 @@ export const ContextProvider = (props) => {
   const [loading, setLoading] = useState(false);
   const [output, setOutput] = useState("");
   const apiKey = import.meta.env.apiKey;
-  console.log("API Key:", import.meta.env.VITE_GEMINI_API_KEY);
+  console.log("API Key:", import.meta.env);
 
 
   const genAI = new GoogleGenerativeAI(apiKey);
