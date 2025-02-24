@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between py-4 px-8 bg-slate-50">
+    <div className="flex items-center justify-between py-4 px-8 bg-slate-100">
       <div className="flex gap-2 items-center">
         <p className="font-bold text-2xl font-serif">Paraphraser</p>
       </div>
