@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex flex-1 flex-col w-full max-sm:w-full max-[300px]:w-full">
       <Navbar />
       <Home/>
       <Footer />
