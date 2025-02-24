@@ -4,8 +4,8 @@ const Steps = () => {
   return (
     <div className="flex gap-4 flex-col mt-2 justify-center items-center w-2/3">
       <h1 className="text-4xl font-semibold">Steps</h1>
-      <div className="flex flex-col justify-center items-center gap-6 px-6 py-2.5 w-2/3">
-        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500">
+      <div className="flex flex-col justify-center items-center gap-6 px-6 py-2.5 w-2/3 max-sm:px-2 max-sm:mx-auto max-sm:w-full">
+        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500 max-sm:w-full">
           <img src={reactLogo} alt="" className="" />
           <div className="">
             <h2 className="text-xl font-medium">Enter Text</h2>
@@ -14,7 +14,7 @@ const Steps = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500">
+        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500 max-sm:w-full">
           <img src={reactLogo} alt="" className="" />
           <div className="">
             <h2 className="text-xl font-medium">Select Tone</h2>
@@ -24,7 +24,7 @@ const Steps = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500">
+        <div className="flex gap-6 w-2/3 bg-slate-50 py-2 px-6 rounded-xl hover:scale-105 hover:bg-slate-100 transition-all duration-500 max-sm:w-full">
           <img src={reactLogo} alt="" className="" />
           <div className="">
             <h2 className="text-xl font-medium">Paraphrase</h2>
